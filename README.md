@@ -1,5 +1,5 @@
 # RE Aoharu
-Alice Style 70% JIS Keyboard
+Alice Style 75% JIS Keyboard
 
 ## ビルドガイド
 Ver.BETA
