@@ -1,4 +1,8 @@
 # RE Aoharu
+「ハッピーエンドが私は好きなんです！！」  
+──阿慈谷ヒフミ  
+  
+
 Alice Style 75% JIS Keyboard  
   
 RE AoharuはJIS配列としてリファインされたAlice配列キーボードです。  
