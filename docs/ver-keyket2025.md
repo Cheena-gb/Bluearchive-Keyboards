@@ -24,7 +24,7 @@
  - 作業用ピンヘッダ  
    短いもので問題ありません。2本ほど必要です。  
  - Waveshare RP2040-Zeroまたは互換基板  
-   1個必要です。
+   1個
  - ロータリーエンコーダー
    1個
  - エンコーダーノブ
@@ -177,7 +177,7 @@ LEDを実装している場合、MCUに通電すれば赤色に発光するは�
 
 ### トラブルシューティング(1)
 <details><summary>LEDがすべて光らない</summary>D1、L1、5V0、GND、GP0は問題なくはんだ付けできていますか？ケーブルは断線していませんか？</details>  
-<details><summary>LEDが途中から光らない・ちらつく</summary>光らない/ちらつくLED自体のはんだづけと、1個前のLEDのはんだを確認してください。</details>  
+<details><summary>LEDが途中から光らない・ちらつく</summary>光らない/ちらつくLED自体のはんだづけと、1個前のLEDのはんだを確認してください。稀にRGB MatrixとRGB Lightingが同時に起動してしまうことがあり、この状態だと通電状態のLEDすべてが強くちらつくことになります。Vial経由でLightingをDisableし、Saveするなどで解決します。</details>  
 <details><summary>LED15・16・17がおかしい</summary>ロータリーエンコーダー周辺のLEDは分岐しており、LED14から15と16を接続し、15から17を接続しています。それぞれの接続を確認してください。</details>
 <details><summary>それ以外の問題・治らない場合</summary>製作者に連絡してください。</details>
   
@@ -254,4 +254,9 @@ LEDは上側にあるため、Double Shot Backlit系キーキャップが良く�
 ## ファームウェアの改造
 [ここにあります。](https://github.com/Cheena-gb/vial-qmk/tree/vial/keyboards/cheena/re_aoharu)  
 改造ファームの不具合、それに起因する故障などについてはサポートできませんのでご了承ください。  
-また、DefaultとVIA用のキーマップには作業を行っていないため動きません。
+また、DefaultとVIA用のキーマップには作業を行っていないため動きません。  
+
+基板上のL15とL16はL14から分岐する形で制御しており、L15とL16は同じ光り方になります。  
+ファームウェア上では一つのLEDとして認識されるため、LEDは88個が上限ということになります。  
+RGB LightとRGB Matrixの切り替えや制御を行う際は注意してください。
+
