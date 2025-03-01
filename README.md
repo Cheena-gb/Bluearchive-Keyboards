@@ -14,7 +14,8 @@ RE AoharuはJIS配列としてリファインされたAlice配列キーボード
 安定した動作のために敢えて無線機能やバッテリーも排除しているらしい。  
 高い性能と、疲労を低減する構造により、長時間の作業も難なく行える。
 
-"AL-1S" Style 65% JIS Keyboard
+"AL-1S" Style 65% JIS Keyboard  
+  
 Hare's Hacking Keyboard(H2KB)はJIS配列としてリファインされたAlice配列キーボードです。  
 プログラマーに人気のハッピーな配列をRE Aoharuと同様の調整でAlice化しつつ、ポインティングデバイス、ロータリーエンコーダー等の要素を追加しています。  
 
