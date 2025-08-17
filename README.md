@@ -22,7 +22,7 @@ Constant Moderatoは伝説的なキーボードの要素を取り入れたロー
 
 ## ビルドガイド
 - RE Aoharu
-  - [Ver.BETA](https://github.com/Cheena-gb/Bluearchive-Keyboards/blob/main/docs/RE-Aoharu/ver-keyket2025.md)
+  - [Ver.BETA](https://github.com/Cheena-gb/Bluearchive-Keyboards/blob/main/docs/RE_Aoharu/ver-keyket2025.md)
 
 ## バージョン情報
 - RE Aoharu
