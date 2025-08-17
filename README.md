@@ -23,11 +23,12 @@ Constant Moderatoは伝説的なキーボードの要素を取り入れたロー
 ## ビルドガイド
 - RE Aoharu
   - [Ver.BETA](https://github.com/Cheena-gb/Bluearchive-Keyboards/blob/main/docs/RE_Aoharu/ver-keyket2025.md)
+- Constant Moderato
+  - [Ver.BETA](https://github.com/Cheena-gb/Bluearchive-Keyboards/blob/main/docs/Constant_Moderato/ver-beta.md)
 
 ## バージョン情報
 - RE Aoharu
   - Ver.BETA  
     2025年3月22日「キーボードマーケット　トーキョー」にて販売しています。
   - 量産版(Ver.1.0以降)  
-- 快晴
 - Constant Moderato
