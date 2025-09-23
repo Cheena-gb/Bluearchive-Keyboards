@@ -30,5 +30,6 @@ Constant Moderatoは伝説的なキーボードの要素を取り入れたロー
 - RE Aoharu
   - Ver.BETA  
     2025年3月22日「キーボードマーケット　トーキョー」にて販売しています。
-  - 量産版(Ver.1.0以降)  
 - Constant Moderato
+  - Ver.BETA
+  - 2025年9月14日以降オンライン頒布しています。
